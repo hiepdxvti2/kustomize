@@ -9,6 +9,10 @@ namespace: dev
 bases:
   - ../../base
 
-#components:
-#  - ../../components/external_db
-#  - ../../components/cache
+patchesStrategicMerge:
+- patch/api-depl.yaml
+
+images:
+- name: myapp
+  newName: image-registry.openshift-image-registry.svc:5000/openshift/httpd
+  newTag: latest
