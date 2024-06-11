@@ -14,5 +14,5 @@ patchesStrategicMerge:
 
 images:
 - name: myapp
-  newName: image-registry.openshift-image-registry.svc:5000/openshift/httpd
-  newTag: latest
+  newName: anhmhtera/media-fe
+  newTag: v0.1.3
