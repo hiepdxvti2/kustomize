@@ -9,3 +9,5 @@ spec:
       containers:
       - image: myapp
         name: myapp
+      imagePullSecrets:
+        - name: ecr-registry-secret

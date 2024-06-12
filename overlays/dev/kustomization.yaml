@@ -14,5 +14,5 @@ patchesStrategicMerge:
 
 images:
 - name: myapp
-  newName: anhmhtera/media-fe
-  newTag: v0.1.3
+  newName: 905418455152.dkr.ecr.ap-southeast-1.amazonaws.com/sppl-app
+  newTag: version-1.0.69
